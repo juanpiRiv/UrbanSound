@@ -270,7 +270,7 @@ input::placeholder, textarea::placeholder{
 
 @media(max-width:991px){
     body{
-        padding: 30px;
+        padding: 0px;
     }
     form{
         padding:50px 30px ;
