@@ -19,7 +19,8 @@ header{
     padding: 20px;
 }
 body{
-
+    width: auto;
+    height: auto;
     text-align: center;
     margin: 0;
     padding: 0;
