@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     border: 0;
+    width: auto;
+    height: auto;
     box-sizing: border-box;
     font-family: "Rubik", sans-serif;
 }
