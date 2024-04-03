@@ -10,13 +10,14 @@
 header{
     width: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
     background-color: rgb(0, 0, 0);
     text-align: center;
     min-height: 60px;
     font-size: 23px;
-    font-weight: 500;
-    padding: 20px;
+    font-weight: 600;
+    padding:20px;
+    text-shadow: 0 0 03px #d7d94c
 }
 body{
     width: auto;
@@ -31,14 +32,15 @@ body{
     display:flex;
     float: left;
     color: #d7d94c ;
-    padding-right: 10px;  
+    padding-right: 10px; 
+    text-shadow: 0 0 03px #d7d94c;
     font-size: 20px;
     font-weight:600 ;
 }
 .logo img{
-    height: 50px;
+    box-shadow:0 0 07px #818181;
+    height: 45px;
     margin-right: 10px;
-    padding-left: 5px;
 }
 span{
     display: flex;
@@ -54,6 +56,7 @@ span{
 }
 @media (max-width:700px){
     header{
+        align-items: center;
         flex-direction:column;
     }
     nav{
