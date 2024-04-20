@@ -1,0 +1,37 @@
+footer {
+    margin: auto 0;
+    align-items: center;
+    background-color: $black;
+    color: $secondary-color;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+
+    p {
+        align-items: center;
+        padding-top: 100px;
+        margin-bottom: 50px;
+        text-decoration: line-through;
+    }
+
+    .redes a {
+        text-align: center;
+        align-items: center;
+        color: $secondary-color;
+        font-size: 40px;
+        letter-spacing: 20px;
+    }
+}
+.subir{
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    background-color: $primary-color;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow:0 0 5px #fff 
+}

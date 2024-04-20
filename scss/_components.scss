@@ -1,0 +1,233 @@
+.c-item{
+    height: 800px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+.card{
+    border-radius: 20px;
+    background:linear-gradient(-195deg,$primary-color,$card-color,$card-color2);
+    border-color: $primary-color;
+    box-shadow: 0 0 10px #d7d94c;
+    text-shadow: 0 0 4px #000;
+}
+.card-text{
+    color: $white;
+}
+.card-title{
+color: $white;
+}
+.card-img-top{
+    border-radius: 20px;
+    box-shadow: 0 0 15px #000;
+    width: auto;
+    height: 300px;
+    filter:opacity(0.8);
+    object-fit:cover;
+}
+.card-img-top:hover{
+    transform:rotateY(210deg);
+    transition:all 1.5s;
+}
+.c-botton{
+    background-color: #000;
+    text-align: center;
+}
+.study {
+    height: 100vh;
+    background-image: url(../img/music-1290087.jpg);
+    filter: brightness(0.8);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+.studyh2 {
+    text-shadow: 0 0 2px #000000;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: $primary-color;
+    background-color: rgba(0, 0, 0, 0.445);
+    }
+    
+.iconosest {
+    display: flex;
+    font-size: 150px;
+    color: $secondary-color;
+    background-color: rgba(0, 0, 0, 0.445);
+    text-shadow: 0 0 2px #000000;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+ul {
+    margin-top: 0px;
+    margin-bottom: 0rem;
+}
+
+ul {
+    padding-left: 0rem;
+}
+h2 {
+    margin-bottom: 0;
+}
+    .estud {
+        list-style: none;
+        text-decoration: none;
+        width: 40vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
+        color: $white;
+        background-color: rgba(0, 0, 0, 0.445);
+    }
+
+    .equipo {
+        box-shadow: 0 0 5px #000000;
+    }
+}
+
+.bodycontact {
+    background-image: url(../img/microphone-7495739_1920.jpg);
+    margin: 0 auto;
+}
+
+.contactosh2 {
+    border-radius: 100px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width:0 auto;
+    margin: 0 auto;
+
+    .input-group {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .contactosh2 {
+        color: $white;
+        font-size: 29px;
+    }
+
+    label {
+        color: $white;
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+    input, textarea {
+        padding: 17px 25px;
+        border-radius: 25px;
+        margin-bottom: 20px;
+        background-color: #EDFFF0;
+        border: 2px solid #F0FAF1;
+        color: $black;
+        outline: none;
+
+        &::placeholder {
+            color: #b5cab6;
+        }
+    }
+
+    .form-text {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+
+        a {
+            color: #76b28d;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+        }
+    }
+
+    .btn {
+        font-size: 16px;
+        color: $white;
+        border: 0;
+        border-radius: 25px;
+        background-color: $primary-color;
+        box-shadow: 0 0 20px rgba(165, 254, 0, 0.4);
+        cursor: pointer;
+
+        &:hover {
+            background-color: $secondary-color;
+        }
+    }
+}
+
+.algunos {
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 0 0 4px $primary-color;
+    color: $white;
+    background-color: $black;
+    padding: 20px;
+}
+
+.row {
+    background-color: $black;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.galeria {
+    background-image: url(../img/microphone-7495739_1920.jpg);
+    filter: saturate(0.9);
+}
+
+.container {
+    background:linear-gradient(-90deg,#fc14c223,#ff910025,#d7d94c33);
+    width: 100%;
+    margin: auto;
+    border-radius: 100px;
+    box-shadow:0 0 55px #000000;
+    border: solid 1px $primary-color;
+
+    .galeria & {
+        display: grid;
+        padding: 30px;
+    }
+}
+
+.box {
+    margin: 20px;
+
+    img {
+        width: 100%;
+        height: 230px;
+        filter:grayscale(0.8);
+        border-radius: 20px;
+
+        &:hover {
+            transition: all 1s;
+            transform:scale(1.2);
+            filter:grayscale(0.0);
+            filter: brightness(0.9);
+            filter: saturate(0.9);
+        }
+    }
+}

@@ -1,0 +1,386 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+header {
+  width: auto;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  min-height: 60px;
+  font-size: 23px;
+  font-weight: 600;
+  padding: 20px;
+  text-shadow: 0 0 3px #d7d94c;
+}
+@media (max-width: 700px) {
+  header {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+header span {
+  display: flex;
+  text-align: center;
+  color: #a5a3a3;
+  padding-left: 5px;
+}
+header .logo {
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  float: left;
+  color: #d7d94c;
+  padding-right: 10px;
+  text-shadow: 0 0 3px #d7d94c;
+  font-size: 20px;
+  font-weight: 600;
+}
+header .logo img {
+  box-shadow: 0 0 7px #818181;
+  height: 45px;
+  margin-right: 10px;
+}
+header .barra {
+  margin-top: 10px;
+  display: flex;
+  float: right;
+  align-items: center;
+}
+header .barra ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+header .barra a {
+  text-decoration: none;
+  color: #d7d94c;
+}
+header .barra a:hover {
+  color: #a5a3a3;
+}
+
+.c-item {
+  height: 800px;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.5);
+}
+
+.card {
+  border-radius: 20px;
+  background: linear-gradient(-195deg, #d7d94c, #facc4c, rgba(61, 55, 38, 0.8274509804));
+  border-color: #d7d94c;
+  box-shadow: 0 0 10px #d7d94c;
+  text-shadow: 0 0 4px #000;
+}
+
+.card-text {
+  color: white;
+}
+
+.card-title {
+  color: white;
+}
+
+.card-img-top {
+  border-radius: 20px;
+  box-shadow: 0 0 15px #000;
+  width: auto;
+  height: 300px;
+  filter: opacity(0.8);
+  object-fit: cover;
+}
+
+.card-img-top:hover {
+  transform: rotateY(210deg);
+  transition: all 1.5s;
+}
+
+.c-botton {
+  background-color: #000;
+  text-align: center;
+}
+
+.study {
+  height: 100vh;
+  background-image: url(../img/music-1290087.jpg);
+  filter: brightness(0.8);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.study .studyh2 {
+  text-shadow: 0 0 2px #000000;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #d7d94c;
+  background-color: rgba(0, 0, 0, 0.445);
+}
+.study .iconosest {
+  display: flex;
+  font-size: 150px;
+  color: #a5a3a3;
+  background-color: rgba(0, 0, 0, 0.445);
+  text-shadow: 0 0 2px #000000;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.study ul {
+  margin-top: 0px;
+  margin-bottom: 0rem;
+}
+.study ul {
+  padding-left: 0rem;
+}
+.study h2 {
+  margin-bottom: 0;
+}
+.study .estud {
+  list-style: none;
+  text-decoration: none;
+  width: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.445);
+}
+.study .equipo {
+  box-shadow: 0 0 5px #000000;
+}
+
+.bodycontact {
+  background-image: url(../img/microphone-7495739_1920.jpg);
+  margin: 0 auto;
+}
+
+.contactosh2 {
+  border-radius: 100px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  padding: 50px 55px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  text-align: center;
+  width: 0 auto;
+  margin: 0 auto;
+}
+form .input-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+form .contactosh2 {
+  color: white;
+  font-size: 29px;
+}
+form label {
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+form input, form textarea {
+  padding: 17px 25px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background-color: #EDFFF0;
+  border: 2px solid #F0FAF1;
+  color: rgb(0, 0, 0);
+  outline: none;
+}
+form input::placeholder, form textarea::placeholder {
+  color: #b5cab6;
+}
+form .form-text {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+form .form-text a {
+  color: #76b28d;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+form .btn {
+  font-size: 16px;
+  color: white;
+  border: 0;
+  border-radius: 25px;
+  background-color: #d7d94c;
+  box-shadow: 0 0 20px rgba(165, 254, 0, 0.4);
+  cursor: pointer;
+}
+form .btn:hover {
+  background-color: #a5a3a3;
+}
+
+.algunos {
+  text-align: center;
+  text-transform: capitalize;
+  text-shadow: 0 0 4px #d7d94c;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+}
+
+.row {
+  background-color: rgb(0, 0, 0);
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.galeria {
+  background-image: url(../img/microphone-7495739_1920.jpg);
+  filter: saturate(0.9);
+}
+
+.container {
+  background: linear-gradient(-90deg, rgba(252, 20, 194, 0.137254902), rgba(255, 145, 0, 0.1450980392), rgba(215, 217, 76, 0.2));
+  width: 100%;
+  margin: auto;
+  border-radius: 100px;
+  box-shadow: 0 0 55px #000000;
+  border: solid 1px #d7d94c;
+}
+.galeria .container {
+  display: grid;
+  padding: 30px;
+}
+
+.box {
+  margin: 20px;
+}
+.box img {
+  width: 100%;
+  height: 230px;
+  filter: grayscale(0.8);
+  border-radius: 20px;
+}
+.box img:hover {
+  transition: all 1s;
+  transform: scale(1.2);
+  filter: grayscale(0);
+  filter: brightness(0.9);
+  filter: saturate(0.9);
+}
+
+footer {
+  margin: auto 0;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  color: #a5a3a3;
+  text-align: center;
+  padding: 20px;
+  font-size: 15px;
+}
+footer p {
+  align-items: center;
+  padding-top: 100px;
+  margin-bottom: 50px;
+  text-decoration: line-through;
+}
+footer .redes a {
+  text-align: center;
+  align-items: center;
+  color: #a5a3a3;
+  font-size: 40px;
+  letter-spacing: 20px;
+}
+
+.subir {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  background-color: #d7d94c;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #fff;
+}
+
+@media (max-width: 700px) {
+  header {
+    align-items: center;
+    flex-direction: column;
+  }
+  nav {
+    padding: 10px 0px;
+  }
+}
+@media (max-width: 991px) {
+  body {
+    padding: 0;
+  }
+  form {
+    padding: 50px 30px;
+    width: 100%;
+  }
+  input {
+    padding: 15px;
+  }
+}
+@media (max-height: 900px) {
+  .study {
+    flex-direction: column;
+    padding: 20px;
+    height: 100%;
+  }
+  .study .equipo {
+    margin: 10px;
+  }
+}
+@media (min-width: 520px) {
+  .galeria .container {
+    grid-template-columns: repeat(2, 50%);
+  }
+}
+@media (min-width: 728px) {
+  .galeria .container {
+    grid-template-columns: repeat(3, 33.3%);
+  }
+}
+@media (min-width: 1024px) {
+  .galeria .container {
+    grid-template-columns: repeat(4, 25%);
+  }
+  .container {
+    width: 1024px;
+  }
+}
+@media (max-width: 1024px) {
+  .galeria .container {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
