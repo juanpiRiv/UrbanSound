@@ -20,6 +20,12 @@
         padding: 15px;
     }
 }
+@media (min-width: 576px) {
+    .row-cols-sm-2 > * {
+        flex: 0 0 auto;
+        width: 35%;
+    }
+}
 @media (max-height: 900px) {
     .study{
         flex-direction: column;
@@ -29,12 +35,6 @@
         .equipo {
             margin: 10px;
         }
-    }
-}
-@media (min-width: 576px) {
-    .row-cols-sm-2 > * {
-        flex: 0 0 auto;
-        width: 35%;
     }
 }
 @media (min-width: 520px) {
