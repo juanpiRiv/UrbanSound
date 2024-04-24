@@ -92,10 +92,12 @@ header .barra a:hover {
 }
 
 .card-img-top {
+  margin-top: 25px;
+  align-self: center;
   border-radius: 20px;
   box-shadow: 0 0 15px #000;
-  width: auto;
-  height: 300px;
+  width: 90%;
+  height: 30vh;
   filter: opacity(0.8);
   object-fit: cover;
 }
@@ -111,7 +113,7 @@ header .barra a:hover {
 }
 
 .study {
-  height: 100vh;
+  height: 90vh;
   background-image: url(../img/music-1290087.jpg);
   filter: brightness(0.8);
   background-size: cover;
@@ -245,7 +247,7 @@ form .btn:hover {
   text-align: center;
   text-transform: capitalize;
   text-shadow: 0 0 4px #d7d94c;
-  color: white;
+  color: #a5a3a3;
   background-color: rgb(0, 0, 0);
   padding: 20px;
 }
@@ -267,11 +269,10 @@ form .btn:hover {
   margin: auto;
   border-radius: 100px;
   box-shadow: 0 0 55px #000000;
-  border: solid 1px #d7d94c;
 }
 .galeria .container {
   display: grid;
-  padding: 30px;
+  padding: 25px;
 }
 
 .box {
@@ -357,6 +358,12 @@ footer .redes a {
   }
   .study .equipo {
     margin: 10px;
+  }
+}
+@media (min-width: 576px) {
+  .row-cols-sm-2 > * {
+    flex: 0 0 auto;
+    width: 35%;
   }
 }
 @media (min-width: 520px) {

@@ -20,10 +20,12 @@
 color: $white;
 }
 .card-img-top{
+    margin-top: 25px;
+    align-self: center;
     border-radius: 20px;
     box-shadow: 0 0 15px #000;
-    width: auto;
-    height: 300px;
+    width: 90%;
+    height: 30vh;
     filter:opacity(0.8);
     object-fit:cover;
 }
@@ -36,7 +38,7 @@ color: $white;
     text-align: center;
 }
 .study {
-    height: 100vh;
+    height: 90vh;
     background-image: url(../img/music-1290087.jpg);
     filter: brightness(0.8);
     background-size: cover;
@@ -183,7 +185,7 @@ form {
     text-align: center;
     text-transform: capitalize;
     text-shadow: 0 0 4px $primary-color;
-    color: $white;
+    color: $secondary-color;
     background-color: $black;
     padding: 20px;
 }
@@ -205,11 +207,11 @@ form {
     margin: auto;
     border-radius: 100px;
     box-shadow:0 0 55px #000000;
-    border: solid 1px $primary-color;
+
 
     .galeria & {
         display: grid;
-        padding: 30px;
+        padding: 25px;
     }
 }
 
