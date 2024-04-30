@@ -6,6 +6,32 @@
     object-fit: cover;
     filter: brightness(0.5);
 }
+.videoabout{
+    padding: 5vh;
+}
+.card2{
+    padding: 5vh;
+    border-radius: 20px;
+    background:linear-gradient(-195deg,$primary-color,$card-color,$card-color2);
+    border-color: $primary-color;
+    box-shadow: 0 0 10px #d7d94c;
+    text-shadow: 0 0 4px #000;
+}
+.servicecard{
+    object-fit: cover;
+    align-self: center;
+    width: 15vh;
+    height:15vh;
+}
+.card-group{
+    padding: 5vh;
+    gap:10vh;
+    width: 150vh;
+}
+.serviceCG{
+    display: flex;
+    justify-content:space-evenly;
+}
 .card{
     border-radius: 20px;
     background:linear-gradient(-195deg,$primary-color,$card-color,$card-color2);
@@ -115,7 +141,6 @@ h2 {
 form {
     padding: 50px 55px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
     text-align: center;
     width:0 auto;
     margin: 0 auto;
@@ -140,7 +165,6 @@ form {
 
     input, textarea {
         padding: 17px 25px;
-        border-radius: 25px;
         margin-bottom: 20px;
         background-color: #EDFFF0;
         border: 2px solid #F0FAF1;
@@ -169,8 +193,6 @@ form {
     .btn {
         font-size: 16px;
         color: $white;
-        border: 0;
-        border-radius: 25px;
         background-color: $primary-color;
         box-shadow: 0 0 20px rgba(165, 254, 0, 0.4);
         cursor: pointer;
@@ -179,15 +201,6 @@ form {
             background-color: $secondary-color;
         }
     }
-}
-
-.algunos {
-    text-align: center;
-    text-transform: capitalize;
-    text-shadow: 0 0 4px $primary-color;
-    color: $secondary-color;
-    background-color: $black;
-    padding: 20px;
 }
 
 .row {

@@ -7,62 +7,9 @@
 }
 
 header {
-  width: auto;
-  display: flex;
-  justify-content: space-evenly;
-  background-color: rgb(0, 0, 0);
   text-align: center;
-  min-height: 60px;
-  font-size: 23px;
   font-weight: 600;
-  padding: 20px;
-  text-shadow: 0 0 3px #d7d94c;
-}
-@media (max-width: 700px) {
-  header {
-    align-items: center;
-    flex-direction: column;
-  }
-}
-header span {
-  display: flex;
-  text-align: center;
-  color: #a5a3a3;
-  padding-left: 5px;
-}
-header .logo {
-  align-items: center;
-  flex-direction: row;
-  display: flex;
-  float: left;
-  color: #d7d94c;
-  padding-right: 10px;
-  text-shadow: 0 0 3px #d7d94c;
-  font-size: 20px;
-  font-weight: 600;
-}
-header .logo img {
-  box-shadow: 0 0 7px #818181;
-  height: 45px;
-  margin-right: 10px;
-}
-header .barra {
-  margin-top: 10px;
-  display: flex;
-  float: right;
-  align-items: center;
-}
-header .barra ul li {
-  list-style: none;
-  display: inline-block;
   padding: 10px;
-}
-header .barra a {
-  text-decoration: none;
-  color: #d7d94c;
-}
-header .barra a:hover {
-  color: #a5a3a3;
 }
 
 .c-item {
@@ -73,6 +20,37 @@ header .barra a:hover {
   height: 100%;
   object-fit: cover;
   filter: brightness(0.5);
+}
+
+.videoabout {
+  padding: 5vh;
+}
+
+.card2 {
+  padding: 5vh;
+  border-radius: 20px;
+  background: linear-gradient(-195deg, #d7d94c, #facc4c, rgba(61, 55, 38, 0.8274509804));
+  border-color: #d7d94c;
+  box-shadow: 0 0 10px #d7d94c;
+  text-shadow: 0 0 4px #000;
+}
+
+.servicecard {
+  object-fit: cover;
+  align-self: center;
+  width: 15vh;
+  height: 15vh;
+}
+
+.card-group {
+  padding: 5vh;
+  gap: 10vh;
+  width: 150vh;
+}
+
+.serviceCG {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .card {
@@ -186,7 +164,6 @@ header .barra a:hover {
 form {
   padding: 50px 55px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  border-radius: 20px;
   text-align: center;
   width: 0 auto;
   margin: 0 auto;
@@ -208,7 +185,6 @@ form label {
 }
 form input, form textarea {
   padding: 17px 25px;
-  border-radius: 25px;
   margin-bottom: 20px;
   background-color: #EDFFF0;
   border: 2px solid #F0FAF1;
@@ -233,23 +209,12 @@ form .form-text a {
 form .btn {
   font-size: 16px;
   color: white;
-  border: 0;
-  border-radius: 25px;
   background-color: #d7d94c;
   box-shadow: 0 0 20px rgba(165, 254, 0, 0.4);
   cursor: pointer;
 }
 form .btn:hover {
   background-color: #a5a3a3;
-}
-
-.algunos {
-  text-align: center;
-  text-transform: capitalize;
-  text-shadow: 0 0 4px #d7d94c;
-  color: #a5a3a3;
-  background-color: rgb(0, 0, 0);
-  padding: 20px;
 }
 
 .row {
@@ -329,15 +294,6 @@ footer .redes a {
   box-shadow: 0 0 5px #fff;
 }
 
-@media (max-width: 700px) {
-  header {
-    align-items: center;
-    flex-direction: column;
-  }
-  nav {
-    padding: 10px 0px;
-  }
-}
 @media (max-width: 991px) {
   body {
     padding: 0;
@@ -348,6 +304,15 @@ footer .redes a {
   }
   input {
     padding: 15px;
+  }
+}
+@media (min-width: 576px) {
+  .videoabout {
+    display: flex;
+    align-content: space-evenly;
+  }
+  .card2 {
+    width: 100vh;
   }
 }
 @media (min-width: 576px) {

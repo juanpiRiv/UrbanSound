@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Urban Sound Factory Transformamos tus ideas en sonidos brillantes. Disfruta grabaciones personalizadas y de alta calidad para capturar la esencia única de cada artista musical.">
-    <meta name="keywords" content="Estudio de grabación,Producción musical,Grabación de música personalizada,Servicios de producción de música,Estudio de grabación profesional,Grabación de audio de alta calidad,Producción de música independiente,Grabación de artistas emergentes,Estudio de música creativa,HTML,BOOSTRAP,JS,SASS">
+    <meta name="description"
+        content="Urban Sound Factory Transformamos tus ideas en sonidos brillantes. Disfruta grabaciones personalizadas y de alta calidad para capturar la esencia única de cada artista musical.">
+    <meta name="keywords"
+        content="Estudio de grabación,Producción musical,Grabación de música personalizada,Servicios de producción de música,Estudio de grabación profesional,Grabación de audio de alta calidad,Producción de música independiente,Grabación de artistas emergentes,Estudio de música creativa,HTML,BOOSTRAP,JS,SASS">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,23 +17,41 @@
     <link rel="shortcut icon" href="./img/audio-1293284.svg" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
     <title>Urban Sound Factory</title>
 </head>
 
 <body>
     <header>
-        <div class="logo"><img src="./img/audio-1293284.svg" alt="logo empresa">Urban<span>Sound</span>
-        </div>
-        <nav class="barra">
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./pages/servicios.html">Servicios</a></li>
-                <li><a href="./pages/estudio.html">Estudio</a></li>
-                <li><a href="./pages/trabajos.html">Trabajos</a></li>
-                <li><a href="./pages/contactos.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-black fs-5">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html">
+                    <img src="../img/audio-1293284.svg" alt="logo empresa" width="50" height="44"></img>
+                    Urban <span class="text-warning">Sound</span>
+                </a>
+                <button class="navbar-toggler text-warning" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./pages/servicios.html">Servicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/estudio.html">Estudio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/trabajos.html">Trabajo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contactos.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <div id="carouselWithCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -42,12 +62,13 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active c-item">
-                <img src="./img/slider 1.jpg" class="d-block w-100 c-img" alt="Slide 1" >
+                <img src="./img/slider 1.jpg" class="d-block w-100 c-img" alt="Slide 1">
                 <div class="carousel-caption top-0 mt-4 ">
                     <p class="mt-5 fs-3 text-uppercase">¡Hola y bienvenido a Urban Sound Factory!</p>
-                    <h5 class="display-3 fw-bolder text-capitalize">Despierta tu música En nuestro estudio, transformamos tus ideas en sonidos que brillan.</h5>
+                    <h5 class="display-3 fw-bolder text-capitalize">Despierta tu música En nuestro estudio,
+                        transformamos tus ideas en sonidos que brillan.</h5>
                     <a href="./pages/servicios.html">
-                    <button class="btn btn-outline-warning px-4 py-2 fs-5 mt-5">+INFO</button>
+                        <button class="btn btn-outline-warning px-4 py-2 fs-5 mt-5">+INFO</button>
                     </a>
                 </div>
             </div>
@@ -55,9 +76,10 @@
                 <img src="./img/slider 2.jpg" class="d-block w-100 c-img" alt="Slide 2">
                 <div class="carousel-caption  top-0 mt-4  ">
                     <p class="mt-5 fs-3 text-uppercase">¿Quienes somos?</p>
-                    <h5 class="display-3 fw-bolder text-capitalize">somos un equipo dedicado a capturar la esencia única de cada artista y sonido.</h5>
+                    <h5 class="display-3 fw-bolder text-capitalize">somos un equipo dedicado a capturar la esencia única
+                        de cada artista y sonido.</h5>
                     <a href="./pages/servicios.html">
-                    <button class="btn btn-outline-warning px-4 py-2 fs-5 mt-5">+INFO</button>
+                        <button class="btn btn-outline-warning px-4 py-2 fs-5 mt-5">+INFO</button>
                     </a>
                 </div>
             </div>
@@ -65,10 +87,11 @@
                 <img src="./img/slider 3.jpg" class="d-block w-100 c-img" alt="Slide 3">
                 <div class="carousel-caption  top-0 mt-4  ">
                     <p class="mt-5 fs-3 text-uppercase">¿Que Ofrecemos?</p>
-                    
-                    <h5 class="display-3 fw-bolder text-capitalize">Ofrecemos experiencias de grabación personalizadas y de alta calidad.</h5>
+
+                    <h5 class="display-3 fw-bolder text-capitalize">Ofrecemos experiencias de grabación personalizadas y
+                        de alta calidad.</h5>
                     <a href="./pages/servicios.html">
-                    <button class="btn btn-outline-warning px-4 py-2 fs-5 mt-5"> +INFO</button>
+                        <button class="btn btn-outline-warning px-4 py-2 fs-5 mt-5"> +INFO</button>
                     </a>
                 </div>
             </div>
@@ -80,6 +103,64 @@
         <a class="carousel-control-next" href="#carouselWithCaptions" role="button" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+    <section class="serviceCG bg-black">
+        <div class="card-group">
+            <div class="card rounded-3">
+                <img src="./img/application-customer-mobile-svgrepo-com.svg" class="servicecard" alt="24mobile">
+                <div class="card-body">
+                    <h5 class="card-title">¿Por qué confiar en nuestro soporte técnico 24/7?🚀</h5>
+                    <p class="card-text">Nuestro equipo está siempre listo para responder a tus llamadas, emails o mensajes, garantizando una asistencia rápida y efectiva, sin importar la hora.Contamos con especialistas en tecnología de sonido que pueden resolver desde los problemas más simples hasta los más complejos, asegurando que tu equipo funcione perfectamente.</p>
+                </div>
+            </div>
+            <div class="card rounded-3">
+                <img src="./img/always-hours-service-svgrepo-com.svg" class="servicecard" alt="24horas">
+                <div class="card-body">
+                    <h5 class="card-title">Accesibilidad Total🚀</h5>
+                    <p class="card-text">¿La inspiración te llega de madrugada? ¿Tu banda solo está completa después de la medianoche? No te preocupes, en Urban Sound estamos abiertos las 24 horas del día, 7 días a la semana, listos para capturar cada nota de tu creatividad cuando te sientas inspirado.
+                    </p>
+                </div>
+            </div>
+            <div class="card rounded-3">
+                <img src="./img/business-customer-heart-svgrepo-com.svg" class="servicecard" alt="24musica">
+                <div class="card-body">
+                    <h5 class="card-title">Confort en el Estudio🚀</h5>
+                    <p class="card-text">En Urban Sound, creemos que la magia musical surge de la perfecta armonía entre el artista y el productor, en un ambiente que inspira y acoge. Es por eso que hemos diseñado nuestro estudio para ser tu segundo hogar, un lugar donde cada nota encuentra su espacio y cada sesión se siente como una revelación.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="c-botton">
+        <a href="./pages/servicios.html">
+            <button class="btn btn-outline-warning px-4"> +INFO</button>
+        </a>
+    </div>
+    <section class="videoabout bg-black">
+        <div class="ratio" style="--bs-aspect-ratio: 50%;">
+            <video class="video" autoplay loop>
+                <source src="./img/videoprabout.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="card2 m-4 rounded-3">
+            <div class="card-body">
+                <h5 class="card-title text-center">⚡Confía en Nosotros⚡</h5>
+                <h6 class="card-subtitle text-center fs-5 mb-2 text-muted">🚀Experiencia y Profesionalismo🚀</h6>
+                <p class="card-text text-center">En Urban Sound, tu confianza es nuestra nota clave. Con un equipo de expertos en producción musical y un compromiso inquebrantable con la excelencia, te garantizamos resultados que superarán tus expectativas. Deja tu música en manos de profesionales y prepárate para brillar con Urban Sound.</p>
+                <h5 class="card-title text-center">💽Testimonios💽</h5>
+                <h6 class="card-subtitle text-center fs-5 mb-2 text-muted">🚀Artistas y Productores🚀</h6>
+                <p class="card-text text-center">
+                    "Urban Sound ha demostrado ser el socio perfecto para mi carrera musical. Su profesionalismo y pasión por la música se reflejan en cada nota. Gracias a su dedicación, mi música ha alcanzado un nuevo nivel de calidad y autenticidad. ¡Recomendaría a Urban Sound a cualquier artista que busque destacarse en la industria musical!"-Morad   
+                </p>
+                <p class="card-text text-center">
+                    "Trabajar con Urban Sound ha sido una experiencia increíble. Su equipo de producción musical realmente captó mi visión artística y llevó mi música a un nivel completamente nuevo. ¡No puedo esperar para colaborar con ellos en futuros proyectos!"-YG Marley
+                </p>
+            </div>
+        </div>
+    </section>
+    <div class="c-botton">
+        <a href="./pages/servicios.html">
+            <button class="btn btn-outline-warning px-4"> +INFO</button>
         </a>
     </div>
     <footer>
