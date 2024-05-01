@@ -236,10 +236,10 @@ form .btn:hover {
 }
 
 .container {
-  background: linear-gradient(-90deg, rgba(252, 20, 194, 0.137254902), rgba(255, 145, 0, 0.1450980392), rgba(215, 217, 76, 0.2));
+  background: linear-gradient(-90deg, rgba(252, 20, 194, 0.2549019608), rgba(255, 145, 0, 0.2941176471), rgba(215, 217, 76, 0.2823529412));
   width: 100%;
   margin: auto;
-  border-radius: 100px;
+  border-radius: 50px;
   box-shadow: 0 0 55px #000000;
 }
 .galeria .container {
@@ -248,7 +248,7 @@ form .btn:hover {
 }
 
 .box {
-  margin: 20px;
+  margin: 25px;
 }
 .box img {
   width: 100%;
